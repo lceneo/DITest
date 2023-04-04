@@ -4,8 +4,7 @@ import {FirstService} from "../../services/first.service";
 @Component({
   selector: 'app-first',
   templateUrl: './first.component.html',
-  styleUrls: ['./first.component.scss'],
-  providers: [FirstService]
+  styleUrls: ['./first.component.scss']
 })
 export class FirstComponent implements OnInit{
   constructor(private firstService: FirstService) {}
